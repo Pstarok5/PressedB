@@ -1,0 +1,39 @@
+body {
+    background-color: #3a4552;
+}
+
+
+h1 {
+    color: goldenrod;
+    font-size: 45px;
+    font-family: Centaur;
+}
+
+
+
+button {
+    padding: 16px 25px;
+    font-size: 25px;
+    color: #fff;
+    background-color: blue;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 9px #999;
+    transition: 0.4s;
+}
+
+
+
+button:hover {
+    color: lime;
+    background-color: darkgreen;
+}
+
+
+
+button:active {
+    transform: translateY(4px);
+    box-shadow: 0 6px #666;
+    background-color: red;
+}
